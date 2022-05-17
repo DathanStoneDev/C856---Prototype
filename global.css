@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+}
+
+/**  Max Width Container for all pages. **/
+.container {
+    max-width: 1536px;
+    margin: 0 auto !important; 
+	float: none !important
+}
+
+/** Navigation Bar **/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar div {
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 10px;
+}

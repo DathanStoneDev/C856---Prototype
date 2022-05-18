@@ -1,0 +1,16 @@
+
+
+.about-section img {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.center-welcome-message {
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: #F0EEF3;
+}

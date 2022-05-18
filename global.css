@@ -10,15 +10,24 @@ body {
 	float: none !important
 }
 
+header {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 /** Navigation Bar **/
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #B4CEB3;
 }
 
 .navbar p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .navbar div {

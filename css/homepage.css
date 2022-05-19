@@ -1,9 +1,16 @@
 
 
+/**ABOUT SECTION**/
+.about-container {
+    width: 100%;
+    height: 1000px;
+}
+
 .about-section img {
     height: 1000px;
     width: 100%;
     position: relative;
+    object-fit: cover;
 }
 
 .center-welcome-message {
@@ -11,6 +18,39 @@
     top:60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4rem;
+    font-size: 64px;
     color: #F0EEF3;
+}
+
+/**LODGING SECTION**/
+.lodging-container {
+    background-color: #f4f6f7;
+    width: 100%;
+    height: 800px;
+}
+
+.lodging-section h1{
+    text-align: center;
+    padding: 125px 0 50px 0;
+    font-size: 76px;
+    color: #B4CEB3;
+}
+
+.lodging-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lodging-card {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.lodging-card img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
 }

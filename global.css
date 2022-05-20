@@ -24,6 +24,26 @@ h1, h2, h3, p {
     margin: 0;
 }
 
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #B4CEB3;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+
+footer p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
 /** Navigation Bar **/
 .navbar {
     display: flex;
@@ -31,6 +51,12 @@ h1, h2, h3, p {
     justify-content: space-between;
     color: #B4CEB3;
     padding: 15px 0 15px 0;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
 }
 
 .navbar p {
@@ -48,4 +74,45 @@ h1, h2, h3, p {
 
 .navbar li {
     margin: 0 10px;
+}
+
+.navbar li a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: #B4CEB3;
+}
+
+.navbar li a:active {
+    color: #B4CEB3;
+}
+
+.navbar button {
+    background-color: #B4CEB3;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    width: 150px;
+    height: 50px;
+    padding-right: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.navbar button:hover {
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.section-heading {
+    text-align: center;
+    padding: 60px 0 60px 0;
+    font-size: 64px;
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #B4CEB3;
 }

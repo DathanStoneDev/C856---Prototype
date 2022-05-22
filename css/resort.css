@@ -1,0 +1,11 @@
+.navbar p a {
+    color: #B4CEB3;
+}
+
+.resort-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 1000px;
+    align-items: center;
+}
+

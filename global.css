@@ -30,6 +30,8 @@ footer {
     background-color: #B4CEB3;
     align-items: center;
     justify-content: center;
+    bottom: 0;
+    width: 100%;
 }
 
 footer img {

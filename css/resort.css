@@ -9,3 +9,16 @@
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.resort-content {
+    padding-left: 25px;
+    font-size: 1.25rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+>>>>>>> resort-page

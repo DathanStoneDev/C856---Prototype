@@ -1,4 +1,37 @@
+.navbar p a {
+    color: #B4CEB3;
+}
+
 .resturant-side-container {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.resturant {
+    display: flex;
+    height: 200px;
+    width: 450px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.resturant img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+    border-color: #B4CEB3;
+    box-shadow: 5px 5px #B4CEB3;
+}
+
+.resturant-description-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+
+.resturant-name {
+    font-weight: bold;
 }

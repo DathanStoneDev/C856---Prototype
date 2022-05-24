@@ -1,0 +1,8 @@
+.navbar p a {
+    color: #B4CEB3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

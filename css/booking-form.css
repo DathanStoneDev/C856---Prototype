@@ -5,4 +5,52 @@
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    justify-content: center;
 }
+
+input {
+    width: 450px;
+    height: 35px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: solid #B4CEB3;
+    font-size: 1.25rem;
+}
+label {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+select {
+    width: 450px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: solid #B4CEB3;
+    font-size: 1.25rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background-color: #B4CEB3;
+    border: solid #B4CEB3;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    border: none;
+}
+
+.submit-button:hover{
+    color: white;
+    box-shadow: 2px 2px black;
+}
+

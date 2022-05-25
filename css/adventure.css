@@ -1,0 +1,40 @@
+.navbar p a {
+    color: #B4CEB3;
+}
+
+.adventure-container {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 100px;
+}
+
+.left-side-adventures {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-adventures {
+    display: flex;
+    flex-direction: column;
+}
+
+.adventure {
+    width: 400px;
+    height: 400px;
+}
+
+.adventure img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+    border-color: #B4CEB3;
+    box-shadow: 5px 5px #B4CEB3;
+}
+
+.adventure-description-container h3 {
+    padding: 15px 0 15px 0;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #B4CEB3;
+}

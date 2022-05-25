@@ -1,0 +1,40 @@
+.navbar p a {
+    color: #B4CEB3;
+}
+
+.night-life-container {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 100px;
+}
+
+.left-side-night {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-night {
+    display: flex;
+    flex-direction: column;
+}
+
+.night-fun {
+    width: 500px;
+    height: 500px;
+}
+
+.night-fun img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+    border-color: #B4CEB3;
+    box-shadow: 5px 5px #B4CEB3;
+}
+
+.night-life-description-container h3 {
+    padding: 15px 0 15px 0;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #B4CEB3;
+}

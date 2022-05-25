@@ -14,11 +14,22 @@
     height: 500px;
     width: 1000px;
     padding-top: 25px;
-    padding-bottom: 25px;   
+    padding-bottom: 25px; 
+}
+
+.hotel-description-container {
+    padding-right: 25px;
+    width: 500px;
 }
 
 .hotel-description-container p {
     padding-top: 25px;
+}
+
+.hotel-description-container h3 {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #B4CEB3;
 }
 
 .hotel-image-container img {

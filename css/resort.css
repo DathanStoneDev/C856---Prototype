@@ -8,9 +8,21 @@
     height: 1000px;
     align-items: center;
 }
+
+.resort-photo img {
+    object-fit: cover;
+    border-radius: 5%;
+    border-color: #B4CEB3;
+    box-shadow: 5px 5px #B4CEB3;
+}
+
 .resort-content {
     padding-left: 25px;
     font-size: 1.25rem;
+}
+
+.resort-content p {
+    padding-bottom: 20px;
 }
 
 footer {
